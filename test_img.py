@@ -124,10 +124,10 @@ def main(args):
                         cv2.circle(img, (int(point[i]), int(
                             point[i + 1])), 2, (0, 255, 0))
                 cv2.imshow("test", img)
-                if cv2.waitKey(0) & 0xFF == ord('q'):
-                    cv2.destroyAllWindows()
                 if args.save_image:
                     cv2.imwrite(args.save_name, img)
+                if cv2.waitKey(0) & 0xFF == ord('q'):
+                    cv2.destroyAllWindows()
 
 
 def parse_arguments(argv):
