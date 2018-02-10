@@ -32,8 +32,8 @@ Similarly, after step 3 or step 4, you can run `python src/mtcnn_rnet_test.py` o
 You can run `python test_img.py YOUR_IMAGE_PATH --model_dir ./save_model/all_in_one/` to test mtcnn with the provided model. 
 You can also provide your own training model directory to do the test. If there are multiple models in the directory, the program will automatically choose the model with the maximum iterations.
 ### Results
-![test1.jpg](./example_images/test1_result.jpg)
-![test2.jpg](./example_images/test2_result.jpg)
+![test1.jpg](./images/test1_result.jpg)
+![test2.jpg](./images/test2_result.jpg)
 
 ### Reference
 [1] MTCNN paper link: [Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://arxiv.org/pdf/1604.02878v1.pdf)
