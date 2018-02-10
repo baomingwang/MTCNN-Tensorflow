@@ -3,8 +3,8 @@
 
 ### Requirement
 0. Ubuntu 14.04 or 16.04 or Mac 10.*
-1. tensorflow && python3.6: [https://github.com/tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
-2. opencv3.0 for python3.6 
+1. tensorflow 1.3 && python3.6: [https://github.com/tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
+2. opencv 3.0 for python3.6 
 `pip install opencv-python`
 3. numpy 1.13
 `pip install numpy`
